@@ -1,0 +1,16 @@
+### Find orders  by user
+GET http://localhost:3000/getOrders?tokenA=0xb5D6E820B5AfC78dd91a46F991775196D3d65F34
+content-type: application/json
+
+### Find orders by tokenA
+# Find by user
+GET http://localhost:3000/getOrders?user=0x22961F4EB722B9582E9743a662e6f1c051add4df
+content-type: application/json
+
+### Find orders for matching by tokenA
+GET http://localhost:3000/getMatchingOrders?tokenA=0xb5D6E820B5AfC78dd91a46F991775196D3d65F34
+content-type: application/json
+
+### Find orders for matching by user
+GET http://localhost:3000/getMatchingOrders?user=0x22961F4EB722B9582E9743a662e6f1c051add4df
+content-type: application/json
